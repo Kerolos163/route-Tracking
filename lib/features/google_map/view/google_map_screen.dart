@@ -51,7 +51,11 @@ class _GoogleMapScreenState extends State<GoogleMapScreen> {
       markers.add(marker);
       setState(() {});
     } on LocationServiceException catch (exception) {
+      //to do
     } on LocationPermissionException catch (exception) {
-    } catch (exception) {}
+      //to do
+    } catch (exception) {
+      //to do
+    }
   }
 }
